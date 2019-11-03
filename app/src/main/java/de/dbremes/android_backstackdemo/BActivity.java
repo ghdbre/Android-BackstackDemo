@@ -14,7 +14,7 @@ public class BActivity extends BaseActivity implements B1Fragment.B1FragmentList
 
     @Override
     public void onB1FragmentBackButtonClicked() {
-        startActivity(AActivity.class);
+        onBackPressed();
     }
 
 }

@@ -28,7 +28,7 @@ public class MainActivity extends BaseActivity implements
 
     @Override
     public void onMain2FragmentBackButtonClicked() {
-        showFragment(new Main1Fragment());
+        onBackPressed();
     }
 
     @Override
@@ -38,7 +38,7 @@ public class MainActivity extends BaseActivity implements
 
     @Override
     public void onMain3FragmentBackButtonClicked() {
-        showFragment(new Main1Fragment());
+        onBackPressed();
     }
 
     @Override
