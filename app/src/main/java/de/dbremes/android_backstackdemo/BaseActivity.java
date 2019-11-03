@@ -35,9 +35,12 @@ public class BaseActivity extends AppCompatActivity {
         Log.d(TAG, "onBackPressed(): backStackEntryCount = " + backStackEntryCount
                 // fragments.size() will always be 1 because there is 1 visible fragment at a time.
                 + "; fragments.size() = " + fragments.size());
-        Log.d(TAG, "onBackPressed(): fragments.get(0) = "
-                + fragments.get(0).getClass().getName());
+        if (fragments.size() >0 ) {
+            Log.d(TAG, "onBackPressed(): fragments.get(0) = "
+                    + fragments.get(0).getClass().getName());
+        }
         logBackStack();
+        super.onBackPressed();
     }
 
     void showFragment(Fragment fragment) {
