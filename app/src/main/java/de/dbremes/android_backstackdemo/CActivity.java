@@ -9,7 +9,7 @@ public class CActivity extends BaseActivity implements C1Fragment.C1FragmentList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_c);
-        showFragment(new C1Fragment());
+        startWithFragment(new C1Fragment());
     }
 
     @Override

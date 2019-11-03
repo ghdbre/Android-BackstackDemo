@@ -9,7 +9,7 @@ public class BActivity extends BaseActivity implements B1Fragment.B1FragmentList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_b);
-        showFragment(new B1Fragment());
+        startWithFragment(new B1Fragment());
     }
 
     @Override

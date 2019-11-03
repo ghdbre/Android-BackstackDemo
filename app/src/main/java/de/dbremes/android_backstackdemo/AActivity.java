@@ -13,7 +13,7 @@ public class AActivity extends BaseActivity implements
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_a);
-        showFragment(new A1Fragment());
+        startWithFragment(new A1Fragment());
     }
 
     @Override

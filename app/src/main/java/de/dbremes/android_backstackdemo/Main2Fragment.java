@@ -15,7 +15,7 @@ import android.widget.Button;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Main2Fragment extends Fragment {
+public class Main2Fragment extends BaseFragment {
     private static String TAG = "Main2Fragment";
 
     interface Main2FragmentListener {
